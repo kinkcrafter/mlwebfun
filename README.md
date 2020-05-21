@@ -1,3 +1,6 @@
+# DISCLAIMER
+This Repository does NOT contain any adult content.  However it DOES contain some graphic descriptions and code in this project is meant to provide interesting learning and entertainment opportunities for consenting adults.
+
 # ML Model classifier and regression examples/toys for Adult consumption
 Machine-learning webapps delivered via an embedded C# Console Application.  Use javascript based ML for interesting adult activities
 

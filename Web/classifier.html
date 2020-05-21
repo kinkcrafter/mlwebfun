@@ -1,0 +1,49 @@
+﻿<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Classifier</title>
+
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.2/dist/ml5.min.js"></script>-->
+    <script src="src/p5.js"></script>
+    <script src="src/p5.sound.min.js"></script>
+    <script src="src/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Classification: Get a reward for doing as trained!</h1>
+    <input id="filePicker" type="file" accept="video/*" title="Pick a video of your choice, it will start but you won't be able to hear or see it untill you train a model and hit 'Be Good'"/>
+    <div>
+        <div id="videoOverlay"></div>
+        <div id="peekVideo">
+            <video id="peekVideoBody" controls autoplay></video>
+        </div>
+        <div>
+            <script src="classifier.js"></script>
+        </div>
+    </div>
+    <br />
+    <h6><span id="modelStatus">Loading base model...</span></h6>
+    <p><button id="ButtonA" title="Click this to take images of Good behavior">Add Good Images</button></p>
+    <p><span id="amountOfAImages">0</span> Good Images</p>
+    <br><button id="ButtonB" title="Click this to take images of BAD behavior">Add BAD Image</button>
+    <p><span id="amountOfBImages">0</span> BAD Images</p>
+    <br />
+    <p><button title="Once you have plenty of Good and BAD images, train the model with this button" id="train">Train</button><span id="loss"></span></p>
+    <br />
+    <p>
+        <button id="buttonPredict" title="Starts checking if you're Good or BAD!">Be Good!</button><br />
+        Your custom model labeled this as: <span id="result">...</span>,
+        with a confidence of <span id="confidence">...</span>.
+    </p>
+    <br />
+    <button id="save">Save</button>
+    <label for="avatar">Load Model:</label>
+    <input type="file" id="load" multiple />
+    <br />
+</body>
+
+</html>

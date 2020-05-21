@@ -1,0 +1,38 @@
+﻿html, body {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    margin: 2px;
+    padding: 4px;
+}
+
+video {
+    width: 300;
+    height: 300;
+}
+
+p {
+    display: inline;
+    font-size: 14px;
+}
+
+h6 {
+    margin: 4px;
+    font-weight: lighter;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#videoOverlay, #peekVideoBody {
+    width: 1280px;
+    height: 1060px;
+}
+
+#videoOverlay {
+    position: absolute;
+    float: left;
+    background-color: #000;
+    z-index: 200000;
+}

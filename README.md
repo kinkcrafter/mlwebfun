@@ -1,5 +1,7 @@
-# mlwebfun
+# ML Model classifier and regression examples/toys for Adult consumption
 Machine-learning webapps delivered via an embedded C# Console Application.  Use javascript based ML for interesting adult activities
+
+Made with [p4js](https://p5js.org/)
 
 ## Setup
 BYOAV - Bring your own Adult Videos

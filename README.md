@@ -49,7 +49,7 @@ Go nuts!
 
 ## Binaries
 
-I've included mlfun.zip which is a release "any cpu" build that I've included for folks who have trouble building this project.  It can be found here
+I've included mlfun.zip which is a release "any cpu" build that I've included for folks who have trouble building this project.  It can be found [here](https://github.com/kinkcrafter/mlwebfun/blob/master/mlfun.zip)
 
 ## Contributions
 

@@ -38,6 +38,19 @@ Regression works similar to the Classification app; instead of a Good/BAD boolea
 
 `An example of this: _Bad behavior is classified as the submissive is outside of the video, or in the video but not touching or sucking a dildo in front of the camera. Good behavior is the submissive kissing the top of the dildo. Great behavior is the submissive with the dildo far into their mouth.  After the model is trained, the video will be black if the submissive is not in the frame or not handling the dildo.  As the submissive desirably interacts with the dildo, the video will start to show.  If the submissive deepthroats the dildo, the video will play at full clarity_`
 
+The Smart Camera works like the classifier but it will take a photo whenever "trained" behavior is observed.  The photos will be saved into appdata, a button in the app will open the folder on the host.
+
+## Customization
+Currently, the Binary, Linear, and Image controller are set up.  The Binary and Linear controllers simply recieve a value (true/false or 1-100).  I have left comments to "do something interesting here" in these controllers.  Feel free to implement your own code here!  You can... run a batch file, send a text, have the computer speak, use your imagination!
+
+The Image controller recieves the current camera image when the Smart Camera page takes a photo.  It saves it locally but you could ALSO do whatever you want with the image at this point.
+
+Go nuts!
+
+## Binaries
+
+I've included mlfun.zip which is a release "any cpu" build that I've included for folks who have trouble building this project.  It can be found here
+
 ## Contributions
 
 Feel free to PR, I won't check this often, so you can reach me as /u/kink_crafter.  I'll be posting updates to this on /r/bdsmdiy
